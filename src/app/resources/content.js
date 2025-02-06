@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm {person.firstName}, a Softwarre engineer and Project Adviser at <InlineCode>EPITECH</InlineCode>, where I craft intuitive
+      I'm {person.firstName}, a Software engineer and Project Adviser at <InlineCode>EPITECH</InlineCode>, where I craft intuitive
       <br /> projects and solutions. After hours, I build my own projects.
     </>
   ),
@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        {person.firstName} is a Paris-based design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
