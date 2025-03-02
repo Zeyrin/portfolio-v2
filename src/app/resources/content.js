@@ -546,37 +546,37 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/projects/project-01/c.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/projects/project-01/DataTechAcceuil.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
+      src: "/images/projects/project-01/Nagra.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-06.jpg",
+      src: "/images/projects/project-01/Networth.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/projects/project-01/Jots.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Bodyo.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Ellcie.jpg",
       alt: "image",
       orientation: "horizontal",
     },
