@@ -267,15 +267,15 @@ export default function About() {
                     </Text>
                     <Column as="ul" gap="16">
                       {experience.achievements.map(
-                        (achievement: JSX.Element, index: number) => (
-                          <Text
-                            as="li"
-                            variant="body-default-m"
-                            key={`${experience.company}-${index}`}
-                          >
-                            {achievement}
-                          </Text>
-                        )
+                      (achievement, index) => (
+                        <Text
+                        as="li"
+                        variant="body-default-m"
+                        key={`${experience.company}-${index}`}
+                        >
+                        {achievement}
+                        </Text>
+                      )
                       )}
                     </Column>
                     {experience.images.length > 0 && (
