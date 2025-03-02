@@ -91,11 +91,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        {person.firstName} est ingénieur backend basé à Paris, il maîtrise l'art
-        de transformer des défis complexes en solutions simples et efficaces.
-        Son expertise s'étend à la conception d'architectures avancées, la
-        création d'expériences interactives et l'harmonisation des interactions
-        entre l'utilisateur et la technologie.
+        Ingénieur backend basé à Paris, je maîtrise l'art de transformer des
+        défis complexes en solutions simples et efficaces. Mon expertise s'étend
+        à la conception d'architectures avancées, la création d'expériences
+        interactives et l'harmonisation des interactions entre l'utilisateur et
+        la technologie.
       </>
     ),
   },
@@ -132,7 +132,7 @@ const about = {
       },
       {
         company: "DataAnnotationTech",
-        timeframe: "2024 - 2025",
+        timeframe: "2024 1+ An",
         role: "Développeur IA Backend",
         achievements: [
           <>
@@ -161,7 +161,7 @@ const about = {
       },
       {
         company: "NagraVision - Kudelski Group",
-        timeframe: "2023 - 6 Months",
+        timeframe: "2023 - 6 Mois",
         role: "Test Engineer Trainee",
         achievements: [
           <>
@@ -187,7 +187,7 @@ const about = {
       },
       {
         company: "Networth Platform",
-        timeframe: "2023 - 4 Months",
+        timeframe: "2023 - 4 Mois",
         role: "Chef de Projet Backend",
         achievements: [
           <>
@@ -208,6 +208,74 @@ const about = {
           {
             src: "/images/projects/project-01/Networth.jpg",
             alt: "NagraVision",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Jots",
+        timeframe: "2022 - 3 Mois",
+        role: "Développeur Mobile",
+        achievements: [
+          <>
+            Réalisation d'une recherche approfondie pour comprendre le public
+            cible et ses besoins.
+          </>,
+          <>
+            Utilisation de Figma pour concevoir des maquettes et des wireframes
+            afin de traduire les fonctionnalités de l'application en designs
+            visuellement attractifs et interactifs.
+          </>,
+          <>
+            Collaboration étroite avec des spécialistes en IA pour intégrer des
+            fonctionnalités intelligentes dans l'application.
+          </>,
+          <>
+            Maintien d'une communication ouverte et d'une approche
+            collaborative, ce qui m'a permis de résoudre rapidement et
+            efficacement les problèmes.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/Jots.jpg",
+            alt: "Jots",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Bodyo",
+        timeframe: "2021 - 4 Mois",
+        role: "Développeur Mobile",
+        achievements: [
+          "Création d'une feuille de route définissant les objectifs, les jalons et les délais du projet.",
+          "Mise en place d'une infrastructure agile, impliquant l'établissement de cycles de développement itératifs et la réalisation de réunions quotidiennes.",
+          "Contribution active à la conception et à l'implémentation des fonctionnalités de l'application en collaboration étroite avec les designers et les développeurs.",
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/Bodyo.jpg",
+            alt: "Bodyo",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Ellcie Healthy",
+        timeframe: "2017 - 6 Mois",
+        role: "Développeur - Data Scientist",
+        achievements: [
+          "Développement d'algorithmes pour analyser le comportement oculaire et conception de systèmes de détection du sommeil de pointe pour les conducteurs.",
+          "Intégration de ces algorithmes dans des lunettes connectées intelligentes et extension de leur application en les utilisant avec un simulateur de conduite.",
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/Ellcie.jpg",
+            alt: "Ellcie Healthy",
             width: 16,
             height: 9,
           },
@@ -275,17 +343,6 @@ const about = {
             Spécialisation en Laravel pour la création d'applications web
             modernes, intégration d'API REST, gestion de bases de données, et
             optimisation des performances.
-          </>
-        ),
-        images: [],
-      },
-      {
-        title: "Inertia.js",
-        description: (
-          <>
-            Utilisation d'Inertia.js pour créer des applications SPA avec une
-            expérience de développement proche de Laravel tout en maintenant un
-            rendu côté serveur.
           </>
         ),
         images: [],
@@ -367,17 +424,6 @@ const about = {
         images: [],
       },
       {
-        title: "React",
-        description: (
-          <>
-            Développement d'interfaces utilisateurs interactives et réactives
-            avec React, en combinant efficacité et performance pour une
-            expérience utilisateur fluide.
-          </>
-        ),
-        images: [],
-      },
-      {
         title: "HTML, CSS, JS",
         description: (
           <>
@@ -418,7 +464,6 @@ const about = {
             une participation active à des groupes comme Station F pour échanger
             sur les dernières tendances technologiques.
           </>
-          
         ),
         images: [
           {
@@ -429,30 +474,36 @@ const about = {
           },
         ],
       },
+      {
+        title: "Figma",
+        description:
+          ((
+            <>
+              Création de prototypes interactifs et de wireframes pour divers
+              projets.
+            </>
+          ),
+          (
+            <>
+              Utilisation de Figma pour faciliter la communication entre les
+              équipes en offrant un outil de conception collaborative et en
+              temps réel.
+            </>
+          )),
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/Figma.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
     ],
 
     // skills: [
-    //   {
-    //     title: "Figma",
-    //     description: (
-    //       <>Able to prototype in Figma with Once UI with unnatural speed.</>
-    //     ),
-    //     // optional: leave the array empty if you don't want to display images
-    //     images: [
-    //       {
-    //         src: "/images/projects/project-01/cover-02.jpg",
-    //         alt: "Project image",
-    //         width: 16,
-    //         height: 9,
-    //       },
-    //       {
-    //         src: "/images/projects/project-01/cover-03.jpg",
-    //         alt: "Project image",
-    //         width: 16,
-    //         height: 9,
-    //       },
-    //     ],
-    //   },
+    //
     //   {
     //     title: "Next.js",
     //     description: (
